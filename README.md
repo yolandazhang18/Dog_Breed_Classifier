@@ -48,7 +48,7 @@ The files included in this project are:
 * `saved_models`: All trained models generated in dog_app.ipynb
 
 
-* README.md
+*  `README.md`
 
 ## 4. Project workflow
 
