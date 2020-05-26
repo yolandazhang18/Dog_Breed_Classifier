@@ -82,7 +82,6 @@ Create and assess a human face detector to detect human faces in images using Op
 * Compile and train the transfer learning model
 * Load model with best validation loss 
 * Test the model accuracy (Test accuracy should be greater than 60%)
-* Predict dog breed with the transfer learning model
 
 ### **Step 5: Write Your Algorithm**
 Combine the pre-defined face and dog detector functions with the ResNet-50 based prediction model
