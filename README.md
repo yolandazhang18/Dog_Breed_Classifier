@@ -76,21 +76,18 @@ Create and assess a human face detector to detect human faces in images using Op
 * Load model with best validation loss 
 * Test the model accuracy (Test accuracy should be greater than 1%)
 
-### **Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)**
+### **Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)**
 * Obtain Bottleneck Features
-* Build model architecture (using a pre-trained VGG-16 model as an example)
+* Build model architecture using a pre-trained ResNet-50 model
 * Compile and train the transfer learning model
 * Load model with best validation loss 
-* Test the model accuracy
+* Test the model accuracy (Test accuracy should be greater than 60%)
 * Predict dog breed with the transfer learning model
 
-### **Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)**
-Use ResNet-50 model instead of VGG-16 and repeat step 4 (Test accuracy should be greater than 60%)
-
-### **Step 6: Write Your Algorithm**
+### **Step 5: Write Your Algorithm**
 Combine the pre-defined face and dog detector functions with the ResNet-50 based prediction model
 
-### **Step 7: Test Your Algorithm**
+### **Step 6: Test Your Algorithm**
 Test the algorithm with various types of user provided images and ouput the predicted dog breed, resembling dog breed or an error.
 
 ## 5. Medium post
