@@ -42,7 +42,7 @@ The files included in this project are:
 * `haarcascades` folder: The Haar feature-based cascade classifier for face detection using OpenCV's implementation
 
 
-* `bottleneck_features` folder: Bottleneck features from pre-trained models
+* `bottleneck_features` folder: Bottleneck features from pre-trained models (Currently unavailable due to large file size)
 
 
 * `saved_models`: All trained models generated in dog_app.ipynb
@@ -94,4 +94,4 @@ Combine the pre-defined face and dog detector functions with the ResNet-50 based
 Test the algorithm with various types of user provided images and ouput the predicted dog breed, resembling dog breed or an error.
 
 ## 5. Medium post
-There is an article about this project.
+There is an [article](https://medium.com/@yolanda091107/image-classifier-101-a-dog-breed-example-cd96a1038a52) about this project.
