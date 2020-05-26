@@ -59,14 +59,14 @@ Import dog images and create:
 * A list of string-valued dog breed names for translating labels, `dog_names`
 
 Import human images and create: <br>
-A numpy array of human image file paths, `human_files`
+A Numpy array of human image file paths, `human_files`
 
 ### **Step 1: Detect Human**
 Create and assess a human face detector to detect human faces in images using OpenCV's implementation of Haar feature-based cascade classifiers. One of these detectors have been downloaded and stored in the haarcascades directory.
 
 ### **Step 2: Detect Dogs** 
-* Pre-process the dog images and use a pre-trained ResNet-50 model to make predictions. 
-* Create and assess the dog detection model.
+* Pre-process the dog images and use a pre-trained ResNet-50 model to detect dogs in the images. 
+* Create and assess the dog detector.
 
 
 ### **Step 3: Create a CNN to Classify Dog Breeds (from Scratch)**
@@ -87,7 +87,7 @@ Create and assess a human face detector to detect human faces in images using Op
 Combine the pre-defined face and dog detector functions with the ResNet-50 based prediction model
 
 ### **Step 6: Test Your Algorithm**
-Test the algorithm with various types of user provided images and ouput the predicted dog breed, resembling dog breed or an error.
+Test the algorithm with various types of user provided images and output the predicted dog breed, resembling dog breed or an error.
 
 ## 5. Medium post
 There is an [article](https://medium.com/@yolanda091107/image-classifier-101-a-dog-breed-example-cd96a1038a52) about this project.
