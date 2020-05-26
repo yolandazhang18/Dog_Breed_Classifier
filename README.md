@@ -42,7 +42,7 @@ The files included in this project are:
 * `haarcascades` folder: The Haar feature-based cascade classifier for face detection using OpenCV's implementation
 
 
-* `bottleneck_features` folder: Bottleneck features from pre-trained models (Currently unavailable due to large file size)
+* `bottleneck_features` folder: Bottleneck features from pre-trained model (CURRENTLY UNAVAILABLE DUE TO LARGE FILE SIZE)
 
 
 * `saved_models`: All trained models generated in dog_app.ipynb
